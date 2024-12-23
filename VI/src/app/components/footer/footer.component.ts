@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-  imageUrl: string = 'https://images.app.goo.gl/u99Tx46gp93RQJvK9';
+  imageUrl: string = 'assets/Pic1.jpg';
   isButtonDisabled: boolean = true;
   textColor: string = 'green';
 }
