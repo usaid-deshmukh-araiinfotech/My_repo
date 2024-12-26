@@ -17,7 +17,7 @@ import { ArticleComponent } from './components/article/article.component';
     MainContentComponent,
     HighlightDirective,
     NavbarComponent,
-    ArticleComponent
+    ArticleComponent,
   ],
   imports: [
     BrowserModule,

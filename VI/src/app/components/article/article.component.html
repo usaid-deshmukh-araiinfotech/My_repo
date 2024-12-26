@@ -1,1 +1,23 @@
-<p>article works!</p>
+<header>
+    <img [src]="header.logo" alt="Logo">
+    <h1>{{ header.title }}</h1>
+  </header>
+  
+  <article>
+    <h2>{{ article.title }}</h2>
+    <p>{{ article.content }}</p>
+    <footer>
+      <p>Written by: {{ article.author }}</p>
+      <p>Published on: {{ article.date | date }}</p>
+    </footer>
+  </article>
+  
+  <section>
+    <h3>{{ section.heading }}</h3>
+    <p>{{ section.content }}</p>
+  </section>
+  
+  <footer>
+    <p>{{ footer.text }} &copy; {{ footer.year }}</p>
+  </footer>
+  

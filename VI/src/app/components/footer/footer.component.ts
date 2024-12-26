@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-  imageUrl: string = 'assets/Pic1.jpg';
+  imageUrl: string = 'assets/images/Pic1.jpg';
   isButtonDisabled: boolean = true;
   textColor: string = 'green';
 }
